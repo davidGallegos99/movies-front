@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {background-color: black;}
+
+#star > i{
+  color: #edb709;
+  margin-top: 7px;
+}
+
+.links {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  height: 20px;
+  margin-top: 10px;
+  
+}
+
+.btn-server {
+  border: none;
+  background-color: #edb709;
+  width: 100%;
+  text-align: center;
+  height: 24px;
+  border-radius: 25px;
+}
+
+.btn-server:hover {
+  cursor: pointer;
+}
+
+.Hotbg
+{
+    background: #2f3640;
+    height: 25px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.Hotbg:hover > .Hotbg-txt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.Hotbg:hover > .Hotbg-btn
+{
+  cursor: pointer;
+    background: azure;
+    color: black;
+}
+.nav-logo:hover{
+  cursor: pointer;
+}
+
+.preload {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hotbg-btn
+{
+    color: #e84118;
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: azure;
+    cursor: pointer;
+}
+
+.Hotbg-btn > i
+{
+    font-size-adjust: 30px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.Hotbg-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: azure;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+    font-weight: bold;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 8px;
+  }
+  .lang-box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  .lang-box:hover{
+    cursor: pointer;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 97%;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+  .column img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 80%;
+    background-color: #007aff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 8px;
+    transition: .3s ease-in-out;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .dropdown:hover{
+    display: inline-block;
+  }
+
+  
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 50%;
+      padding: 0 19px;
+    }
+    
+    .cYTTqT{
+      padding-right: 0 !important;
+    }
+  }
