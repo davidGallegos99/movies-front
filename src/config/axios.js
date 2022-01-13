@@ -1,7 +1,7 @@
 import instance from "axios";
 const { VITE_API_URL } = import.meta.env
 const axios = instance.create({
-    baseURL: "https://movie-api99.herokuapp.com/api",
+    baseURL: "http://localhost:5000/api",
     headers: {
         "Content-Type": "application/json",
     },
